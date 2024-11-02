@@ -1,10 +1,10 @@
 import React from 'react';
 import { View, FlatList, StyleSheet } from 'react-native';
-import LanguageItem from './components/LanguageItem';
+import LanguageItem from './LanguageItem';
 
 const langs = [
-  { id: '1', lang: 'Python', experience: 3, png: 'https://images.app.goo.gl/L4wsV9JFMb2Pr75s7' },
-  { id: '2', lang: 'JavaScript', experience: 2, png: 'https://images.app.goo.gl/BBn37tPmHfyGPHEM6' },
+  { id: '1', lang: 'Python', experience: 3, png: 'https://img.icons8.com/?size=100&id=l75OEUJkPAk4&format=png&color=000000' },
+  { id: '2', lang: 'JavaScript', experience: 2, png: 'https://img.icons8.com/?size=100&id=PXTY4q2Sq2lG&format=png&color=000000' },
 ];
 
 export default function App() {
